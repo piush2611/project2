@@ -1,0 +1,94 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: white;
+	font-family: 'Flamenco', cursive;
+}
+
+header{
+	background-image:  url("../images/cafe4.jpg");
+	/*background: #593C1F; */
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:0;
+}
+
+.classofdiv{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.classoful{
+	float: right;
+	margin-top: 50px;
+}
+
+.classoful li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 25px;
+}
+
+.classoful li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.classoful li a:hover {
+	border-bottom:  2px solid white;
+	border-color:  #3cc16e;
+}
+
+.classofseconddiv{
+	width: 1180px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-60%,-50%);
+	/*text-transform: uppercase;*/
+	/*font-size: 20px;*/
+	font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+	font-size: 240%;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	/*text-transform: uppercase;*/
+}
+
+.classofa{
+	text-decoration: none;
+	padding :10px 30px;
+	text-transform: uppercase;
+	background-color: transparent;
+	color: white;
+	border-radius: 200px;
+	border : 2px solid white;
+	/*padding-left: 20px;*/
+	margin-left: 20px;
+}
+
+.classofa:hover {
+	/*background-color: transparent white;*/
+	background: #3cc16e;
+}
+
+.span2{
+	animation: piyush 2s infinite;
+}
+@keyframes piyush{
+	0%{color: blue}
+	25%{color: yellow}
+	50%{color: green}
+	100%{color: #3cc16e;}
+}
